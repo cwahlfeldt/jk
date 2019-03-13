@@ -1,4 +1,6 @@
-// JS Goes here - ES6 supported
+import './highlight.min.js'
+import './instantclick.min.js'
+
 if (window.netlifyIdentity) {
   window.netlifyIdentity.on("init", user => {
     if (!user) {

@@ -50,9 +50,11 @@
     "whatwg-fetch": "^2.0.0"
   },
   "devDependencies": {
+    "@babel/register": "^7.0.0",
     "gulp-inject": "^5.0.0",
     "gulp-svgmin": "^1.2.3",
     "gulp-svgstore": "^6.1.0",
-    "svg-sprite-loader": "^3.0.0"
+    "svg-sprite-loader": "^3.0.0",
+    "tailwindcss": "^0.7.4"
   }
 }
