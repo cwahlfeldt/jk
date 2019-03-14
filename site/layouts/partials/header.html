@@ -39,7 +39,7 @@
 <body class="{{if eq .Kind `page` }}single{{else}}list{{ if .IsHome }} home{{ end }}{{end}}">
   <header class="header absolute w-full">
     {{ if .IsHome }}
-    <h1 class="title"><a href="{{.Site.BaseURL}}">{{ .Site.Title }}</a></h1>
+    <h1 class="title uppercase"><a href="{{.Site.BaseURL}}">{{ .Site.Title }}</a></h1>
     {{ else }}
     <p class="title"><a href="{{.Site.BaseURL}}">{{ .Site.Title }}</a></p>
     {{ end }}
