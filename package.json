@@ -9,7 +9,8 @@
     "build": "gulp build",
     "build-preview": "gulp build-preview",
     "start": "gulp server",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "cc": "yarn cache clean && gulp hugo"
   },
   "author": "",
   "license": "MIT",
