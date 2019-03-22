@@ -18,7 +18,8 @@ export default {
   },
   plugins: [
     new webpack.ProvidePlugin({
-      "fetch": "imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch"
+      //"fetch": "imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch"
+      fetch: 'exports-loader?self.fetch!whatwg-fetch/dist/fetch.umd',
     })
   ],
   context: path.join(__dirname, "src"),
