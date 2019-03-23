@@ -531,3 +531,20 @@ pre {
   background-color: #272822;
   color: white;
 }
+
+.controls button:first-of-type > input {cursor: w-resize;}
+.controls button:last-of-type > input {cursor: e-resize;}
+
+#left + label {
+  color: green;
+}
+#left:checked + label {
+  color: red;
+}
+
+#right + label {
+  color: green;
+}
+#right:checked + label {
+  color: red;
+}

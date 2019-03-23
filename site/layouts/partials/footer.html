@@ -1,5 +1,5 @@
+{{- /* <!--
 <footer class="bg-black ph3 pv4 white">
-
 	<div class="mw7 center pt3">
 
 		<div class="measure-narrow center mb4">
@@ -49,8 +49,27 @@
 </footer>
 
 {{ partial "svg" . }}
+--> */ -}}
+
+<footer class="footer fixed w-screen inline-block z-50 pin-b">
+  <span>&copy; {{ now.Year }}</span>
+</footer>
 
 <script src="/app.js"></script>
+<script data-no-instant>InstantClick.init();</script>
+<script data-no-instant>
+  addMenuListener();
+  InstantClick.on('change', function() {
+    addMenuListener();
+  });
+  function addMenuListener() {
+    var $toggle = document.querySelector('.menu-toggle');
+    var $body = document.querySelector('body');
+    $toggle.addEventListener('click', function() {
+      $body.classList.toggle('noscroll');
+    }, false);
+  }
+</script>
 
 </body>
 

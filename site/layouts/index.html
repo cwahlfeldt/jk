@@ -2,16 +2,19 @@
 
 <main class="w-screen h-screen">
   <div class="bg-grey-lighter w-full h-full">
-    <div>
-
-      {{ . | jsonify }}
-      {{ range .Site.Home.Data }}
-        {{ . | jsonify }}
-      {{ end }}
-    </div>
-    <nav class="controls flex flex-row h-full">
-      <button class="w-1/2 h-full bg-green border-none"></button>
-      <button class="w-1/2 h-full bg-yellow border-none"></button>
+    <nav class="controls flex flex-row h-full absolute pin">
+      <button class="w-1/2 h-full bg-transparent border-none">
+        <input type="checkbox" id="left" class="opacity-0 w-full h-full">
+        <label class="font-sans absolute pin-y" for="left">
+          left
+        </label>
+      </button>
+      <button class="w-1/2 h-full bg-transparent border-none">
+        <input type="checkbox" id="right" class="opacity-0 w-full h-full">
+        <label class="font-sans absolute pin-y" for="right">
+          right
+        </label>
+      </button>
     </nav>
   </div>
 </main>
