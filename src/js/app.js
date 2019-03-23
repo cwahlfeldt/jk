@@ -1,5 +1,5 @@
-import './highlight.min.js'
-import './instantclick.min.js'
+import '../js/highlight.min.js'
+import '../js/instantclick.min.js'
 
 if (window.netlifyIdentity) {
   window.netlifyIdentity.on("init", user => {

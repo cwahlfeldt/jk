@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<main class="w-screen h-screen">
+  <div class="bg-grey-lighter w-full h-full">
+    <div>
+
+      {{ . | jsonify }}
+      {{ range .Site.Home.Data }}
+        {{ . | jsonify }}
+      {{ end }}
+    </div>
+    <nav class="controls flex flex-row h-full">
+      <button class="w-1/2 h-full bg-green border-none"></button>
+      <button class="w-1/2 h-full bg-yellow border-none"></button>
+    </nav>
+  </div>
+</main>
+
+{{- /* <!--
+
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+
+{{ partial "short-text" .Params.blurb}}
+
+{{ partial "2-up" .Params }}
+
+{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+
+{{ partial "blog" . }}
+
+--> */ -}}
+
+{{ end }}
