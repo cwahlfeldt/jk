@@ -532,19 +532,11 @@ pre {
   color: white;
 }
 
-.controls button:first-of-type > input {cursor: w-resize;}
-.controls button:last-of-type > input {cursor: e-resize;}
+/* .controls label:first-of-type {cursor: w-resize;} */
+/* .controls label:last-of-type {cursor: e-resize;} */
+.controls input#left {cursor: w-resize;}
+.controls input#right {cursor: e-resize;}
 
-#left + label {
-  color: green;
-}
-#left:checked + label {
-  color: red;
-}
-
-#right + label {
-  color: green;
-}
-#right:checked + label {
-  color: red;
+input#right:checked ~ .label-carousel .carousel > img:nth-child(n) {
+  opacity: 0;
 }
