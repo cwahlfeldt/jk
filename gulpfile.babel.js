@@ -26,6 +26,7 @@ gulp.task("css", gulp.series(() => (
     .pipe(postcss([
       cssImport({from: "./src/css/main.css"}),
       tailwindcss('./tailwind.js'),
+      require(`postcss-for`),
       cssnext(),
       //cssnano(),
     ]))

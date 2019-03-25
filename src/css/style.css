@@ -60,6 +60,7 @@ figure {
 img {
   max-width: 100%;
   vertical-align: middle;
+  user-select: none;
 }
 button, input, textarea {
   -webkit-appearance: none;
@@ -532,11 +533,10 @@ pre {
   color: white;
 }
 
-/* .controls label:first-of-type {cursor: w-resize;} */
-/* .controls label:last-of-type {cursor: e-resize;} */
 .controls input#left {cursor: w-resize;}
 .controls input#right {cursor: e-resize;}
 
-input#right:checked ~ .label-carousel .carousel > img:nth-child(n) {
-  opacity: 0;
+@for $i from 0 to 20 {
+  input#control-$i + label > img { display: none; }
+  input#control-$i:checked + label > img { display: block !important; }
 }

@@ -7,21 +7,23 @@
           <!-- <input type="checkbox" id="left" class="z-30 opacity-0 w-full h-full"> -->
           <!-- <label class="font-sans h-full w-1/2 bg-transparent z-30" for="left"> -->
           <!-- </label> -->
-          <input type="checkbox" id="right" class="z-30 opacity-0 w-full h-full">
-          <label class="label-carousel font-sans h-full bg-transparent z-10" for="right">
-            <div class="mx-auto absolute carousel flex flex-row justify-center items-center w-screen h-screen">
+            <div class="mx-auto absolute carousel flex flex-row justify-center items-center w-screen h-screen -mt-10">
               {{ range $i, $image := .Params.galleryImages }}
 
-                <img
-                  style="max-width: 1000px;"
-                  class="z-10 absolute m-auto h-auto w-full"
-                  data-key="{{ $i }}"
-                  src="{{ $image }}"
-                />
+                <div class="slide-{{ $i }} z-10 {{ if (ne $i 0) }} hidden {{ else }} flex {{ end }} absolute m-auto h-auto w-full select-none flex-col justify-center items-center">
+                  <input type="checkbox" checked id="control-{{ $i }}" class="z-30 opacity-0 w-full h-full select-none">
+                  <label for="control-{{ $i }}">
+                    <img
+                      style="max-width: 950px;"
+                      class="carousel-img-{{ $i }}"
+                      data-key="{{ $i }}"
+                      src="{{ $image }}"
+                    /> 
+                  </label>
+                </div>
 
               {{end}}
             </div> 
-          </label>
         </div>
       </nav>
     </div>
