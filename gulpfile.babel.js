@@ -25,9 +25,12 @@ gulp.task("css", gulp.series(() => (
   gulp.src("./src/css/*.css")
     .pipe(postcss([
       cssImport({from: "./src/css/main.css"}),
+      require('postcss-preset-env')({
+        stage: 0,
+      }),
+      require(`css-has-pseudo/postcss`),
       tailwindcss('./tailwind.js'),
       require(`postcss-for`),
-      cssnext(),
       //cssnano(),
     ]))
     .pipe(gulp.dest("./dist/css"))

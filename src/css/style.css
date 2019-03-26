@@ -533,10 +533,36 @@ pre {
   color: white;
 }
 
+.carousel,
+.carousel img {
+  user-select: none;
+}
+
+.carousel img {
+  width: auto;
+  max-width: calc(100vw - 60px);
+  height: auto;
+  max-height: calc(100vh - 180px);
+}
+
+@media screen and (max-width: 510px) {
+  .carousel img {
+    max-width: 100vw;
+  }
+}
+
+/*
 .controls input#left {cursor: w-resize;}
 .controls input#right {cursor: e-resize;}
 
-@for $i from 0 to 20 {
-  input#control-$i + label > img { display: none; }
-  input#control-$i:checked + label > img { display: block !important; }
+.slide-0:has(> input) {
+  background-color: red;
 }
+
+@for $i from 0 to 20 {
+  .slide-$i:has(> input#control-$(i)) { display: none; }
+  .slide-$i:has(> input#control-$(i):checked) { display: block !important; }
+}
+*/
+
+/* input#control-$i:checked + label > img { display: block !important; } */
