@@ -2,9 +2,7 @@
 title: Jake Kelley
 subtitle: Designer || Rocker || Dude
 galleryImages:
-  - /img/about-direct-sourcing.jpg
-  - /img/about-jumbotron.jpg
-  - /img/about-sustainable-farming.jpg
-  - /img/about-single-origin.jpg
+  - /img/blackbird_airacobra_4-12-18_4web.jpg
+  - /img/ghostplanet_mb_4.13.18.jpg
 ---
 
