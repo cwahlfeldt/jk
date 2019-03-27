@@ -13,5 +13,7 @@ galleryImages:
   - /img/vmdb_web.jpg
   - /img/blipsnchitz_7.28.17-red.jpg
   - /img/blipsnchitz_7.28.17-green.jpg
+  - /img/kchs_web_1.jpg
+  - /img/kchs_web_2.jpg
 ---
 
