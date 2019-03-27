@@ -9,6 +9,7 @@ galleryImages:
   - /img/ghostplanet_mb_4.13.18.jpg
   - /img/edna_bw5e-shirts.jpg
   - /img/casadesasha_3-24-19.jpg
+  - /img/vmdb_web.jpg
   - /img/blipsnchitz_7.28.17-red.jpg
   - /img/blipsnchitz_7.28.17-green.jpg
 ---
