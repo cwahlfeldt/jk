@@ -1,6 +1,9 @@
-<header class="header absolute w-full flex justify-between flex-row items-center z-50">
-  <h1 class="font-sans text-base uppercase tracking-wide"><a href="{{.Site.BaseURL}}">{{ .Site.Title }} // Designer</a></h1>
-  <h1 class="font-sans text-base font-light hover:text-black"><a href="mailto:jk8708@gmail.com">Get in Touch</a></h1>
+<header class="header absolute w-full flex justify-center flex-row items-center z-50">
+  <h1 class="font-sans text-base uppercase tracking-wide">
+    <a style="width: 125px" class="pt-20 inline-block" href="{{.Site.BaseURL}}">
+      {{ partial "logo.html" . }}
+    </a>
+  </h1>
   <!-- <button class="menu-toggle" type="button"></button> -->
   <!-- <nav class="menu"> -->
   <!--   <ul> -->

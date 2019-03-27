@@ -36,6 +36,7 @@ body {
   color: rgba(0, 0, 0, .8);
   font-size: 20px;
   line-height: 1.6;
+  overflow: hidden;
 }
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -471,6 +472,9 @@ pre, code {
 }
 /* Footer
 ======================================================================= */
+footer {
+  font-family: 'Suez One', serif !important;
+}
 .footer {
   padding: 20px;
   font-size: 15px;
@@ -542,7 +546,7 @@ pre {
   width: auto;
   max-width: calc(100vw - 60px);
   height: auto;
-  max-height: calc(100vh - 180px);
+  max-height: calc(100vh - 240px);
 }
 
 @media screen and (max-width: 510px) {
