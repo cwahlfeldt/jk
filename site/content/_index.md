@@ -2,6 +2,7 @@
 title: Jake Kelley
 subtitle: Designer || Rocker || Dude
 galleryImages:
+  - /img/wta_cm_10.1.17_11x17_4portfolio.jpg
   - /img/blipsnchitz_11.11.18_4web.jpg
   - /img/blipsnchitz_6.30.17.jpg
   - /img/blackbird_airacobra_4-12-18_4web.jpg
