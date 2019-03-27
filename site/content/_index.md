@@ -1,6 +1,6 @@
 ---
 title: Jake Kelley
-subtitle: Designer || Rocker || Dude
+subtitle: Graphic Design
 galleryImages:
   - /img/wta_cm_10.1.17_11x17_4portfolio.jpg
   - /img/imc_1.27.17.jpg
