@@ -10,6 +10,7 @@ galleryImages:
   - /img/blipsnchitz_11.11.18_4web.jpg
   - /img/vmdb_web.jpg
   - /img/blackbird_airacobra_4-12-18_4web.jpg
+  - /img/lebowski-poster_web.jpg
   - /img/floweezy_06.21.14.jpg
   - /img/ghostplanet_mb_4.13.18.jpg
   - /img/edna_bw5e-shirts.jpg
@@ -18,5 +19,6 @@ galleryImages:
   - /img/doomed_web_2.jpg
   - /img/blipsnchitz_7.28.17-red.jpg
   - /img/blipsnchitz_7.28.17-green.jpg
+  - /img/earthwitch_wolftooth_07.27_4review4.jpg
 ---
 
