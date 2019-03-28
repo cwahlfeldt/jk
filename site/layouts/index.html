@@ -1,24 +1,22 @@
 {{ define "main" }}
 
-  <main class="w-screen h-screen overflow-hidden">
+  <main class="main w-screen h-screen overflow-hidden">
     <div class="bg-grey-lighter w-full h-full">
       <nav class="h-full absolute pin">
         <div class="bg-transparent">
-          <!-- <input type="checkbox" id="left" class="z-30 opacity-0 w-full h-full"> -->
-          <!-- <label class="font-sans h-full w-1/2 bg-transparent z-30" for="left"> -->
-          <!-- </label> -->
-            <div class="mx-auto sm:mt-6 mt-2 absolute carousel flex flex-row justify-center items-center w-screen h-screen">
-              {{ range $i, $image := .Params.galleryImages }}
-              <div class="slide slide-{{ $i }} {{ if eq $i 0 }} flex {{ else }} hidden {{ end }} z-10 absolute m-auto h-auto w-full select-none flex-col justify-center items-center">
-                  <img
-                    class="carousel-img-{{ $i }} cursor-pointer"
-                    data-key="{{ $i }}"
-                    src="{{ $image }}"
-                  /> 
-                </div>
+          <div class="mx-auto sm:mt-6 absolute carousel flex flex-row justify-center items-center w-screen h-screen">
 
-              {{end}}
-            </div> 
+            {{ range $i, $image := .Params.galleryImages }}
+              <div class="slide slide-{{ $i }} {{ if eq $i 0 }} flex {{ else }} hidden {{ end }} z-10 absolute m-auto h-auto w-full select-none flex-col justify-center items-center">
+                <img
+                  class="carousel-img-{{ $i }} cursor-pointer"
+                  data-key="{{ $i }}"
+                  src="{{ $image }}"
+                /> 
+              </div>
+            {{end}}
+
+          </div> 
         </div>
       </nav>
     </div>
