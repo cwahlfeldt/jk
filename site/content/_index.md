@@ -5,7 +5,7 @@ galleryImages:
   - /img/wta_cm_10.1.17_11x17_4portfolio.jpg
   - /img/kchs_web_1.jpg
   - /img/kchs_web_2.png
-  - /img/kchs_web_3.png
+  - /img/kchs_web_4.png
   - /img/show-flyers_4.png
   - /img/blipsnchitz_11.11.18.jpg
   - /img/vmdb_web-1.png
