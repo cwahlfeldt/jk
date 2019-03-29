@@ -6,7 +6,7 @@ galleryImages:
   - /img/kchs_web_1.jpg
   - /img/kchs_web_2.jpg
   - /img/show-flyers_4.png
-  - /img/blipsnchitz_11.11.18_4web.jpg
+  - /img/blipsnchitz_11.11.18.jpg
   - /img/vmdb_web.jpg
   - /img/lebowski-poster_web.jpg
   - /img/show-flyers_2.png
@@ -17,5 +17,6 @@ galleryImages:
   - /img/earthwitch_wolftooth_07.27_4review4.jpg
   - /img/edna_bw5e-shirts.jpg
   - /img/show-flyers_3.png
+  - /img/show-flyers_5.png
 ---
 
