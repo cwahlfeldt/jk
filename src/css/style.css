@@ -555,7 +555,7 @@ pre {
 .carousel img {
   width: auto;
   max-width: calc(100vw - 60px);
-  height: 100%;
+  height: auto;
   max-height: calc(100vh - 240px);
 }
 
@@ -567,7 +567,7 @@ pre {
     height: 100% !important;
   }
   .carousel {
-    height: 100% !important;
+    max-height: 100% !important;
     /* margin-top: -52px !important; */
   }
   .carousel img {
@@ -576,6 +576,18 @@ pre {
   }
   .logo {
     width: 65px;
+  }
+}
+
+@media screen and (max-height: 375px) {
+  .header, .footer {
+    display: none !important;
+  }
+  .carousel {
+    margin: 0 !important;
+  }
+  .carousel img {
+    max-height: calc(100vh - 20px);
   }
 }
 
