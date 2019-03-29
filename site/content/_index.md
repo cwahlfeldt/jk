@@ -12,7 +12,8 @@ galleryImages:
   - /img/vmdb_web-2.png
   - /img/lebowski-poster_web.jpg
   - /img/show-flyers_2.png
-  - /img/shy-blakeman.png
+  - /img/shy-blakeman_3.png
+  - /img/shy-blakeman_2.png
   - /img/floweezy_06.21.14.jpg
   - /img/show-flyers_1.png
   - /img/doomed_web_3.png
