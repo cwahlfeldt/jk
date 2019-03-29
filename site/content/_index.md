@@ -14,8 +14,8 @@ galleryImages:
   - /img/show-flyers_2.png
   - /img/floweezy_06.21.14.jpg
   - /img/show-flyers_1.png
-  - /img/doomed_web_1.jpg
-  - /img/doomed_web_2.jpg
+  - /img/doomed_web_3.png
+  - /img/doomed_web_4.png
   - /img/earthwitch_wolftooth_07.27_4review4.jpg
   - /img/edna_bw5e-shirts.jpg
   - /img/show-flyers_3.png
