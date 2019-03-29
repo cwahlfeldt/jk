@@ -23,5 +23,6 @@ galleryImages:
   - /img/chris-young.png
   - /img/show-flyers_5.png
   - /img/nastics_bm_shirt.jpg
+  - /img/gd-topics_posters.png
 ---
 
