@@ -562,6 +562,7 @@ pre {
 .logo {
   width: 98px;
 }
+
 @media screen and (max-width: 510px) {
   main {
     height: 100% !important;
