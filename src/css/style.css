@@ -580,7 +580,7 @@ pre {
   }
 }
 
-@media screen and (max-height: 375px) {
+@media screen and (max-height: 740px) {
   .header, .footer {
     display: none !important;
   }

@@ -75,6 +75,7 @@ gulp.task("build-preview", gulp.series(gulp.parallel("css", "js", "hugo-preview"
 
 gulp.task("server", gulp.series(gulp.parallel(["hugo", "css", "js"/*, "svg"*/], () => {
   browserSync.init({
+    port: 1234,
     server: {
       baseDir: "./dist"
     }
