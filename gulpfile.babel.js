@@ -69,9 +69,9 @@ gulp.task("js", gulp.series(cb => {
 }))
 
 gulp.task("hugo", gulp.series( (cb) => buildSite(cb, `--ignoreCache`) ))
-gulp.task("hugo-preview", gulp.series((cb) => buildSite(cb, ["--buildDrafts", "--buildFuture"])))
+//gulp.task("hugo-preview", gulp.series((cb) => buildSite(cb, ["--buildDrafts", "--buildFuture"])))
 gulp.task("build", gulp.series(gulp.parallel("css", "js", "hugo")))
-gulp.task("build-preview", gulp.series(gulp.parallel("css", "js", "hugo-preview")))
+//gulp.task("build-preview", gulp.series(gulp.parallel("css", "js", "hugo-preview")))
 
 gulp.task("server", gulp.series(gulp.parallel(["hugo", "css", "js"/*, "svg"*/], () => {
   browserSync.init({

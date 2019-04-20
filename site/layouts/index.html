@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-  <main class="main w-screen h-screen overflow-hidden">
+  <main class="z-20 relative main w-screen h-screen overflow-hidden">
     <div class="bg-grey-lighter w-full h-full">
       <nav class="h-full absolute pin">
         <div class="bg-transparent">
@@ -9,7 +9,7 @@
             {{ range $i, $image := .Params.galleryImages }}
               <div class="slide slide-{{ $i }} {{ if eq $i 0 }} flex {{ else }} hidden {{ end }} z-10 absolute m-auto h-auto w-full select-none flex-col justify-center items-center">
                 <img
-                  class="carousel-img-{{ $i }} cursor-pointer"
+                  class="cursor-pointer carousel-img-{{ $i }}"
                   data-key="{{ $i }}"
                   src="{{ $image }}"
                 /> 

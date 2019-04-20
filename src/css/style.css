@@ -592,6 +592,21 @@ pre {
   }
 }
 
+.cursor-pointer {
+  cursor: url("/img/1693.png") 2 2, pointer !important;
+}
+
+.cursor-next {
+  cursor: url("/img/910.png") 2 2, pointer !important;
+}
+
+.cursor-prev {
+  cursor: url("/img/904.png") 2 2, pointer !important;
+}
+
+.cursor-rock {
+  cursor: url("/img/2039.png") 2 2, pointer !important;
+}
 
 /*
 .controls input#left {cursor: w-resize;}
