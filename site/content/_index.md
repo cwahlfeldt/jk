@@ -2,6 +2,7 @@
 title: Jake Kelley
 subtitle: Graphic Design + Creative Direction
 galleryImages:
+  - /img/lc_cobrafest_2019.jpg
   - /img/wta_cm_10.1.17_11x17_4portfolio.jpg
   - /img/kchs_web_1.jpg
   - /img/kchs_web_2.png
