@@ -24,6 +24,7 @@ galleryImages:
   - /img/show-flyers_3.png
   - /img/chris-young.png
   - /img/show-flyers_5.png
+  - /img/casa-de-sasha_07.20.19_4web.jpg
   - /img/nastics_bm_shirt.jpg
   - /img/gd-topics_posters.png
 ---
