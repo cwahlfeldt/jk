@@ -22,9 +22,10 @@ galleryImages:
   - /img/show-flyers_3.png
   - /img/doomed_web_3.png
   - /img/doomed_web_4.png
-  - /img/edna_bw5e-shirts.jpg
   - /img/show-flyers_1.png
+  - /img/kelley-wedding-branding-1.jpg
   - /img/chris-young.png
+  - /img/edna_bw5e-shirts.jpg
   - /img/earthwitch_wolftooth_07.27_4review4.jpg
   - /img/show-flyers_5.png
   - /img/nastics_bm_shirt.jpg
