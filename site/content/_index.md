@@ -28,7 +28,6 @@ galleryImages:
   - /img/edna_bw5e-shirts.jpg
   - /img/earthwitch_wolftooth_07.27_4review4.jpg
   - /img/show-flyers_5.png
-  - /img/nastics_bm_shirt.jpg
   - /img/gd-topics_posters.png
 ---
 
