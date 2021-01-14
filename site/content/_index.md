@@ -5,8 +5,8 @@ galleryImages:
   - /img/wofk_web_1.jpg
   - /img/wofk_web_3.jpg
   - /img/wofk_web_2.jpg
-  - /img/lc_oktstonerfest_2019_1920x1080_4facebook.jpg
-  - /img/lc_cobrafest_2019.jpg
+  - /img/lc_oktstonerfest_2019_2500x1406_4web.jpg
+  - /img/lc_cobrafest_2019_11x17_4print.jpg
   - /img/kchs_web_1.jpg
   - /img/kchs_web_2.png
   - /img/kchs_web_4.png
