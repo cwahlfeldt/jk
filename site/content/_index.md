@@ -3,6 +3,9 @@ title: Jake Kelley
 subtitle: Graphic Design + Creative Direction
 galleryImages:
   - /img/lc_oktstonerfest_2019_1920x1080_4facebook.jpg
+  - /img/wofk_web_1.jpg
+  - /img/wofk_web_3.jpg
+  - /img/wofk_web_2.jpg
   - /img/lc_cobrafest_2019.jpg
   - /img/kchs_web_1.jpg
   - /img/kchs_web_2.png
