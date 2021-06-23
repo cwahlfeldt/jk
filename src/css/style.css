@@ -608,6 +608,14 @@ pre {
   cursor: url("/img/2039.png") 2 2, pointer !important;
 }
 
+button.prev:focus,
+button.next:focus,
+button.next,
+button.prev {
+    outline: none;
+}
+
+
 /*
 .controls input#left {cursor: w-resize;}
 .controls input#right {cursor: e-resize;}

@@ -5,10 +5,10 @@
     {{ partial "nav" . }}
     {{ block "main" . }}{{ end }} 
     {{ partial "footer" . }} 
-    <div class="absolute w-screen h-screen pin z-30">
+    <div class="absolute z-30 w-screen h-screen pin">
       <div class="flex flex-row w-full h-full">
-        <button class="prev cursor-prev block w-full h-full bg-transparent border-none">&nbsp;</button>
-        <button class="next cursor-next block w-full h-full bg-transparent border-none">&nbsp;</button>
+        <button class="block w-full h-full bg-transparent border-none outline-none prev cursor-prev">&nbsp;</button>
+        <button class="block w-full h-full bg-transparent border-none outline-none next cursor-next">&nbsp;</button>
       </div>
     </div>
   </body>
