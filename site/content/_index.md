@@ -3,9 +3,9 @@ title: Jake Kelley
 subtitle: Graphic Design + Creative Direction
 galleryImages:
   - /img/edna_5.22.22-brassrail_4print.jpg
-  - /img/malortfest-2022_4print.jpg
   - /img/kf_web_2.jpg
   - /img/kf_web_1.jpg
+  - /img/malortfest-2022_4print.jpg
   - /img/wofk_web_1.jpg
   - /img/wofk_web_3.jpg
   - /img/wofk_web_2.jpg
