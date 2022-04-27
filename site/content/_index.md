@@ -9,6 +9,7 @@ galleryImages:
   - /img/wofk_web_1.jpg
   - /img/wofk_web_3.jpg
   - /img/wofk_web_2.jpg
+  - /img/05.09.22_4social-vert.jpg
   - /img/lc_oktstonerfest_2019_4web.jpg
   - /img/railfest_2021_poster_11x17_4print2.jpg
   - /img/lc_cobrafest_2021_4web2.jpg
