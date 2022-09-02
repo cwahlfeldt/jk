@@ -3,6 +3,7 @@ title: Jake Kelley
 subtitle: Graphic Design + Creative Direction
 galleryImages:
   - /img/lc_cobrafest_2022_4jk-web.jpg
+  - /img/edna_logo_2022.jpg
   - /img/edna_5.22.22-brassrail_4print.jpg
   - /img/kf_web_2.jpg
   - /img/kf_web_1.jpg
